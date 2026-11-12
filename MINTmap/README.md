@@ -16,7 +16,10 @@ To confirm MINTmap has been installed correctly and view the parameters run
 ```
 MINTmap.pl -h
 ```
-
+Check if Java is installed with the conda environment, if not:
+```
+module load Java
+```
 
 #### Create a directory to store the MINTmap reference files. Reference files (can all be sourced from https://github.com/TJU-CMC-Org/MINTmap):
 1. Lookup Table:
