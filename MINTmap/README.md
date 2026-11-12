@@ -36,7 +36,11 @@ wget https://github.com/TJU-CMC-Org/MINTmap/blob/release/v1.0/OtherAnnotations.M
 
 4. MINTplates Path (used to create "tRF license-plates"):
 ```
-git clone https://github.com/TJU-CMC-Org/MINTmap/tree/release/v1.0/MINTplates
+Download from https://github.com/TJU-CMC-Org/MINTmap.git
+```
+#### As an alternative to individually doing 'wget' for each file, you can clone the whole repository and then delete files that aren't needed:
+```
+git clone https://github.com/TJU-CMC-Org/MINTmap.git
 ```
 # MINTmap Guide
 
