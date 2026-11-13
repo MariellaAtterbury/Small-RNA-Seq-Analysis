@@ -69,11 +69,11 @@ Rscript mintmap.merge.results.R <result_dir> <output_prefix>
 ```
 This will produce five output files: 
 ```
-<output_prefix>.mintmap.results.csv
 <output_prefix>.ambiguous.tRFs.count.txt
-<output_prefix>.exclusive.tRFs.count.txt
 <output_prefix>.ambiguous.tRFs.metadata.csv
+<output_prefix>.exclusive.tRFs.count.txt
 <output_prefix>.exclusive.tRFs.metadata.csv
+<output_prefix>.mintmap.results.csv
 ```
 
 These files contain a summary of the MINTmap result files that were found and merged, count matrices for ambiguous and exclusive tRFs, and the corresponding metadata files.
